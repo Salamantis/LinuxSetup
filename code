@@ -1,0 +1,30 @@
+sudo add-apt-repository ppa:noobslab/themes && sudo apt-get update
+sudo apt install arc-theme
+sudo add-apt-repository universe
+sudo apt install gnome-tweak-tool
+sudo add-apt-repository ppa:varlesh-l/papirus-pack
+sudo add-apt-repository ppa:noobslab/icons && sudo apt-get update
+sudo apt-get install arc-icons
+sudo add-apt-repository ppa:papirus/papirus && sudo apt-get update
+sudo apt install papirus-icon-theme
+sudo apt install gnome-shell-extensions
+
+
+/org/gnome/desktop/interface/gtk-theme
+  'Arc-Darker'
+/org/gnome/desktop/interface/icon-theme
+  'Papirus-Dark'
+
+/org/gnome/mutter/workspaces-only-on-primary
+  false
+/org/gnome/mutter/dynamic-workspaces
+  true
+/org/gnome/desktop/wm/preferences/button-layout
+  'close,minimize,maximize:'
+/org/gnome/desktop/interface/clock-show-date
+  true
+/org/gnome/shell/extensions/dash-to-dock/dock-fixed
+  false
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  32
+
